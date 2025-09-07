@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Learning Roadmap - Programming Roadmaps</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="roadmap-header">
+        <div class="container">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to All Roadmaps</a>
+            <h1><i class="fas fa-cogs"></i> Rust Learning Roadmap</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="roadmap-content-page">
+            <div class="roadmap-intro">
+                <h2>Rust Accelerated Learning Roadmap (9 Months)</h2>
+                <p>This roadmap is designed for programmers who want to learn Rust efficiently, with a focus on systems programming, performance, and safety.</p>
+                <div class="roadmap-meta" style="margin: 2rem 0;">
+                    <span class="duration"><i class="far fa-clock"></i> Duration: 9 months</span>
+                    <span class="difficulty advanced"><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                    <a href="#" class="print-button btn"><i class="fas fa-print"></i> Print Roadmap</a>
+                </div>
+            </div>
+
+            <section id="month1-2">
+                <h2>Month 1-2: Rust Fundamentals</h2>
+                
+                <h3>Weeks 1-2: Getting Started with Rust</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Rust installation and toolchain (rustup, cargo)</li>
+                    <li>Basic syntax and data types</li>
+                    <li>Variables, mutability, and constants</li>
+                    <li>Control flow (if, loops, match)</li>
+                    <li>Functions and modules</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Command-line calculator</li>
+                    <li>Simple text processing tool</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (first 5 chapters)</li>
+                    <li>Rust By Example</li>
+                    <li>Rustlings course</li>
+                </ul>
+
+                <h3>Weeks 3-4: Ownership & Borrowing</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Ownership model</li>
+                    <li>References and borrowing</li>
+                    <li>Slices</li>
+                    <li>Lifetimes (basic understanding)</li>
+                    <li>The Stack and the Heap</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Text analyzer that doesn't copy strings</li>
+                    <li>Simple data structure implementations</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapters 4-6)</li>
+                    <li>Rust ownership visualizers</li>
+                </ul>
+
+                <h3>Weeks 5-8: Rust Type System & Error Handling</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Structs and enums</li>
+                    <li>Methods and associated functions</li>
+                    <li>Traits and generics</li>
+                    <li>Error handling (Result, Option, ?)</li>
+                    <li>Pattern matching</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Library management system</li>
+                    <li>Error-aware file processing utility</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapters 6-10)</li>
+                    <li>"Programming Rust" (relevant chapters)</li>
+                </ul>
+            </section>
+
+            <section id="month3-4">
+                <h2>Month 3-4: Intermediate Rust</h2>
+                
+                <h3>Weeks 1-3: Collections & Functional Programming</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Standard collections (Vec, HashMap, etc.)</li>
+                    <li>Iterators and closures</li>
+                    <li>Higher-order functions</li>
+                    <li>Custom iterators</li>
+                    <li>Smart pointers (Box, Rc, Arc)</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Data processing pipeline</li>
+                    <li>Custom collection implementation</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapters 13-15)</li>
+                    <li>Rust standard library documentation</li>
+                </ul>
+
+                <h3>Weeks 4-6: Concurrency & Parallelism</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Threads and thread safety</li>
+                    <li>Message passing (channels)</li>
+                    <li>Shared state concurrency</li>
+                    <li>Sync and Send traits</li>
+                    <li>Mutex and RwLock</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Multi-threaded web scraper</li>
+                    <li>Parallel data processor</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapter 16)</li>
+                    <li>"Rust Atomics and Locks" book</li>
+                </ul>
+
+                <h3>Weeks 7-8: Advanced Traits & Generics</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Advanced trait features</li>
+                    <li>Associated types</li>
+                    <li>Generic type parameters</li>
+                    <li>Trait objects and dynamic dispatch</li>
+                    <li>Type state pattern</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Plugin system using traits</li>
+                    <li>Generic data processing library</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapters 17, 19)</li>
+                    <li>"Programming Rust" (advanced traits chapters)</li>
+                </ul>
+            </section>
+
+            <section id="month5-6">
+                <h2>Month 5-6: Systems Programming with Rust</h2>
+                
+                <h3>Weeks 1-3: Low-level Rust</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Raw pointers and unsafe code</li>
+                    <li>FFI (Foreign Function Interface)</li>
+                    <li>Inline assembly</li>
+                    <li>Memory layout and alignment</li>
+                    <li>SIMD operations</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Wrapper for a C library</li>
+                    <li>Memory-efficient data structure</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapter 19)</li>
+                    <li>"The Rustonomicon"</li>
+                </ul>
+
+                <h3>Weeks 4-6: File I/O & Networking</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>File operations</li>
+                    <li>Serialization (serde)</li>
+                    <li>Network programming</li>
+                    <li>Asynchronous I/O introduction</li>
+                    <li>Command-line argument parsing</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>File synchronization tool</li>
+                    <li>Simple HTTP client/server</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>Rust standard library documentation</li>
+                    <li>Crate documentation (clap, serde, reqwest)</li>
+                </ul>
+
+                <h3>Weeks 7-8: Testing & Documentation</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Unit, integration, and benchmark testing</li>
+                    <li>Documentation tests</li>
+                    <li>Property-based testing</li>
+                    <li>Continuous integration</li>
+                    <li>Documentation best practices</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Well-tested and documented library</li>
+                    <li>Benchmark suite for previous projects</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Programming Language" book (chapter 11)</li>
+                    <li>Rust documentation guidelines</li>
+                </ul>
+            </section>
+
+            <section id="month7-8">
+                <h2>Month 7-8: Asynchronous Rust & Web Development</h2>
+                
+                <h3>Weeks 1-3: Asynchronous Programming</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Futures and async/await</li>
+                    <li>Tokio runtime</li>
+                    <li>Async traits</li>
+                    <li>Stream processing</li>
+                    <li>Error handling in async code</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Concurrent web scraper</li>
+                    <li>Asynchronous file processor</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"Asynchronous Programming in Rust" book</li>
+                    <li>Tokio documentation</li>
+                </ul>
+
+                <h3>Weeks 4-8: Web Development with Rust</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Web frameworks (Actix, Rocket, or Axum)</li>
+                    <li>RESTful API development</li>
+                    <li>Database integration (Diesel or SQLx)</li>
+                    <li>Authentication and middleware</li>
+                    <li>WebAssembly basics</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>RESTful API with database backend</li>
+                    <li>Real-time web application</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>Framework-specific documentation</li>
+                    <li>"Zero To Production In Rust" book</li>
+                </ul>
+            </section>
+
+            <section id="month9">
+                <h2>Month 9: Advanced Topics & Final Project</h2>
+                
+                <h3>Weeks 1-2: Performance Optimization</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Profiling and benchmarking</li>
+                    <li>Memory optimization</li>
+                    <li>Compile-time features</li>
+                    <li>Macros (declarative and procedural)</li>
+                    <li>Rust compiler internals</li>
+                </ul>
+                
+                <h4>Projects:</h4>
+                <ul>
+                    <li>Optimize previous projects</li>
+                    <li>Custom derive macro</li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>"The Rust Performance Book"</li>
+                    <li>Compiler documentation</li>
+                </ul>
+
+                <h3>Weeks 3-4: Final Project & Ecosystem Exploration</h3>
+                <h4>Topics:</h4>
+                <ul>
+                    <li>Crate ecosystem navigation</li>
+                    <li>Contribution to open source</li>
+                    <li>Deployment and packaging</li>
+                    <li>Embedded Rust or systems programming</li>
+                </ul>
+                
+                <h4>Project:</h4>
+                <ul>
+                    <li>Complete Rust application showcasing multiple skills:
+                        <ul>
+                            <li>Performance-critical components</li>
+                            <li>Safe concurrency</li>
+                            <li>Good error handling</li>
+                            <li>Well-tested and documented</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h4>Resources:</h4>
+                <ul>
+                    <li>crates.io</li>
+                    <li>This Week in Rust newsletter</li>
+                </ul>
+            </section>
+
+            <section id="continuous-practice">
+                <h2>Daily/Weekly Practice Throughout:</h2>
+                <ul>
+                    <li><strong>Code every day</strong>, even if just for 30 minutes</li>
+                    <li><strong>Read Rust code</strong> from well-established projects</li>
+                    <li><strong>Participate in</strong> Rust communities (Reddit r/rust, users.rust-lang.org)</li>
+                    <li><strong>Solve Rust exercises</strong> on platforms like Exercism</li>
+                    <li><strong>Review and refactor</strong> previous projects as you learn new techniques</li>
+                </ul>
+            </section>
+
+            <section id="success-factors">
+                <h2>Key Success Factors:</h2>
+                <ol>
+                    <li><strong>Embrace the ownership model</strong> - this is Rust's most distinctive feature</li>
+                    <li><strong>Fight with the compiler</strong> until you understand its messages</li>
+                    <li><strong>Start with small projects</strong> and gradually increase complexity</li>
+                    <li><strong>Use cargo and the ecosystem</strong> rather than reinventing the wheel</li>
+                    <li><strong>Practice explaining</strong> Rust concepts to reinforce understanding</li>
+                    <li><strong>Read idiomatic Rust code</strong> to learn best practices</li>
+                    <li><strong>Be patient</strong> - Rust has a steep learning curve but rewards persistence</li>
+                </ol>
+                
+                <p>This accelerated roadmap focuses on the most practical aspects of Rust development. By the end of these 9 months, you'll have a solid foundation in Rust and be able to build efficient, safe, and concurrent applications.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Programming Learning Roadmaps. All roadmaps are designed to help you succeed in your programming journey.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
